@@ -1,0 +1,14 @@
+{
+  "name": "creating-desktop-apps-with-electron",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-prebuilt": "^0.25.1"
+  }
+}
