@@ -1,0 +1,18 @@
+{
+  "name": "packaging-distributing-electron-apps",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "asar pack MyApp.app/Contents/Resources/app MyApp.app/Contents/Resources/app.asar",
+    "build": "electron-packager . MyApp --ignore=node_modules/electron-* && cp Icon.icns MyApp.app/Contents/Resources/atom.icns"
+  },
+  "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "asar": "^0.6.1",
+    "electron-packager": "^3.2.0",
+    "electron-prebuilt": "^0.25.2"
+  }
+}
