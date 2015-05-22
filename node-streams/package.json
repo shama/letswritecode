@@ -1,0 +1,10 @@
+{
+  "name": "streams",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+  "license": "MIT",
+  "devDependencies": {
+  }
+}
