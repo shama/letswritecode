@@ -1,0 +1,23 @@
+{
+  "name": "transform-browserify-bundles",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js --live",
+    "build": "browserify index.js -o bundle.js"
+  },
+  "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "brfs": "^1.4.0",
+    "browserify": "^10.2.3",
+    "budo": "^4.0.0",
+    "through2": "^0.6.5"
+  },
+  "browserify": {
+    "transform": [
+      "./transform.js"
+    ]
+  }
+}
