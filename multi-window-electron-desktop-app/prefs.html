@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    Prefs
+    <script>
+    var ipc = require('ipc')
+
+    var button = document.createElement('button')
+    button.textContent = 'Hide'
+    button.addEventListener('click', function () {
+      ipc.send('toggle-prefs')
+    })
+    document.body.appendChild(button)
+    </script>
+  </body>
+</html>
