@@ -1,0 +1,25 @@
+{
+  "name": "getting-started-with-webpack",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server ./index.js"
+  },
+  "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.15.1",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.10.1",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {
+    "css-loader": "~0.15.1",
+    "jquery": "^2.1.4",
+    "node-libs-browser": "~0.5.2",
+    "style-loader": "~0.12.3",
+    "webpack": "~1.10.1",
+    "webpack-dev-server": "~1.10.1"
+  },
+  "description": ""
+}
