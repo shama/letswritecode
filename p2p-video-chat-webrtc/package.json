@@ -1,0 +1,17 @@
+{
+  "name": "p2p-video-chat-webrtc",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js"
+  },
+  "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "^4.1.0"
+  },
+  "dependencies": {
+    "simple-peer": "^5.11.4"
+  }
+}
