@@ -1,0 +1,23 @@
+<html>
+<head>
+  <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+  <h1>Bears are the best!</h1>
+
+  <form>
+    <div>
+      <label>What do you think?</label>
+      <textarea></textarea>
+      <button type="submit">Send</button>
+    </div>
+  </form>
+
+  <h2>Other people thoughts</h2>
+  <ul class="comments">
+    <% _.forEach(comments, function(comment) { %><li><%= comment %></li><% }); %>
+  </ul>
+
+  <script src="index.js"></script>
+</body>
+</html>
