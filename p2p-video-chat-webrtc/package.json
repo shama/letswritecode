@@ -12,6 +12,7 @@
     "budo": "^4.1.0"
   },
   "dependencies": {
+    "getusermedia": "^1.3.5",
     "simple-peer": "^5.11.4"
   }
 }
