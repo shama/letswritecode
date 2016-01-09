@@ -1,5 +1,16 @@
-navigator.getMedia=navigator.getUserMedia||navigator.webkitGetUserMedia||navigator.mozGetUserMedia||navigator.msGetUserMedia;
-navigator.getMedia({ video: true, audio: false }, function (stream) {
+// The following lines try to handle getUserMedia in many different browsers
+if (navigator.mediaDevices.getUserMedia) {
+  function getUserMedia (constraints, ready, err) {
+    navigator.mediaDevices.getUserMedia(constraints).then(ready).catch(err)
+  }
+} else {
+  var getUserMedia = (navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia).bind(navigator)
+  if (!getUserMedia) {
+    throw new Error('getUserMedia is not supported')
+  }
+}
+
+getUserMedia({ video: true, audio: false }, function (stream) {
   var Peer = require('simple-peer')
   var peer = new Peer({
     initiator: location.hash === '#init',
