@@ -1,18 +1,20 @@
-var remote = require('remote')
-var ipc = require('ipc')
-var Menu = remote.require('menu')
+const {remote, ipcRenderer} = require('electron')
+const {Menu, MenuItem} = remote
 
-var menu = Menu.buildFromTemplate([
+const menu = new Menu()
+
+menu.append(new MenuItem(
   {
     label: 'Electron',
     submenu: [
       {
         label: 'Prefs',
         click: function () {
-          ipc.send('toggle-prefs')
+            ipcRenderer.send('toggle-prefs')
         }
       }
     ]
-  }
-])
+  })
+)
+
 Menu.setApplicationMenu(menu)
