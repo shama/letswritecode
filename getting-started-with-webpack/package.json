@@ -8,18 +8,15 @@
   "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
   "license": "MIT",
   "devDependencies": {
-    "css-loader": "^0.15.1",
-    "style-loader": "^0.12.3",
-    "webpack": "^1.10.1",
-    "webpack-dev-server": "^1.10.1"
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
   },
   "dependencies": {
-    "css-loader": "~0.15.1",
-    "jquery": "^2.1.4",
-    "node-libs-browser": "~0.5.2",
-    "style-loader": "~0.12.3",
-    "webpack": "~1.10.1",
-    "webpack-dev-server": "~1.10.1"
+    "jquery": "^3.3.1",
+    "node-libs-browser": "^2.1.0"
   },
   "description": ""
 }

@@ -1,10 +1,11 @@
 {
-  "name": "mastering-callbacks",
+  "name": "dom-event-listeners",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "budo index.js --live"
+    "start": "budo index.js --live",
+    "test": "node test.js"
   },
   "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
   "license": "MIT",
