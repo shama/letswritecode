@@ -12,6 +12,6 @@
     "nets": "^3.1.0"
   },
   "devDependencies": {
-    "budo": "^4.1.0"
+    "budo": "^11.2.0"
   }
 }

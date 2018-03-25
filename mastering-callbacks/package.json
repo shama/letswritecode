@@ -9,6 +9,6 @@
   "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
   "license": "MIT",
   "devDependencies": {
-    "budo": "^4.0.0"
+    "budo": "^11.2.0"
   }
 }
