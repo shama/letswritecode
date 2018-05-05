@@ -1,6 +1,9 @@
-# Simple P2P with WebRTC
+# P2P Signaling for WebRTC
+# I MADE A WEBRTC MISTAKE
 
 > [https://youtu.be/jY9k4rfXwEI](https://youtu.be/jY9k4rfXwEI)
+
+> UPDATED with WebRTC: [https://youtu.be/gDnS1tnp1ZQ](https://youtu.be/gDnS1tnp1ZQ)
 
 Install [Node.js](https://nodejs.org/).
 

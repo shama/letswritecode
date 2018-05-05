@@ -5,16 +5,21 @@ function Player (data) {
   this.color = data.color || randomColor()
   this.x = 0
   this.y = 0
-  this.element = document.createElement('div')
+  this.element = document.createElement('video')
   Object.assign(this.element.style, {
-    width: '16px',
-    height: '16px',
+    width: '64px',
+    height: '64px',
     position: 'absolute',
     top: '0px',
     left: '0px',
     backgroundColor: this.color
   })
   document.body.appendChild(this.element)
+}
+
+Player.prototype.addStream = function (stream) {
+  this.element.srcObject = stream
+  this.element.play()
 }
 
 Player.prototype.update = function (data) {
@@ -28,5 +33,5 @@ Player.prototype.update = function (data) {
 }
 
 function randomColor () {
-  return '#' + ((1 << 24) * Math.random() | 0).toString()
+  return '#' + Math.random().toString(16).substr(-6)
 }

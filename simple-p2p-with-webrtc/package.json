@@ -13,6 +13,7 @@
     "budo": "^11.2.0"
   },
   "dependencies": {
-    "signalhub": "^4.9.0"
+    "signalhub": "^4.9.0",
+    "webrtc-swarm": "^2.9.0"
   }
 }
