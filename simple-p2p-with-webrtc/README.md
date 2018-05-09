@@ -3,7 +3,7 @@
 
 > [https://youtu.be/jY9k4rfXwEI](https://youtu.be/jY9k4rfXwEI)
 
-> UPDATED with WebRTC: [https://youtu.be/gDnS1tnp1ZQ](https://youtu.be/gDnS1tnp1ZQ)
+> UPDATED with WebRTC: [https://www.youtube.com/watch?v=IqPJb6o_S1Q](https://www.youtube.com/watch?v=IqPJb6o_S1Q)
 
 Install [Node.js](https://nodejs.org/).
 
