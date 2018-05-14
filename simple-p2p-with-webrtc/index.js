@@ -15,7 +15,7 @@ navigator.mediaDevices.getUserMedia({ video: true, audio: true }).then(function 
 
   const players = {}
   swarm.on('connect', function (peer, id) {
-    if (!players[players]) {
+    if (!players[id]) {
       players[id] = new Player()
       peer.on('data', function (data) {
         data = JSON.parse(data.toString())
