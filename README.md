@@ -56,7 +56,7 @@ For convenience, I add the `budo` command to the `scripts` section of my
 ```json
 {
   "scripts": {
-    "start": "budo index.js"
+    "start": "budo index.js:bundle.js"
   }
 }
 ```
