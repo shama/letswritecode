@@ -1,0 +1,24 @@
+{
+  "name": "electron-webpack-vuejs",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron-webpack dev",
+    "build": "electron-webpack && electron-builder"
+  },
+  "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^2.0.2",
+    "electron-builder": "^20.15.1",
+    "electron-webpack": "^2.1.2",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.9.1"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.6"
+  }
+}
