@@ -17,4 +17,8 @@ app.on('ready', () => {
       slashes: true
     }))
   }
+  window.on('closed', function(){
+    window = null
+    app.quit()
+  })
 })
