@@ -17,8 +17,13 @@ app.on('ready', () => {
       slashes: true
     }))
   }
-  window.on('closed', function(){
-    window = null
-    app.quit()
+  window.on("closed", () => {
+    window = null;
   })
+})
+
+app.on("window-all-closed", () => {
+  if (process.platform !== "darwin") {
+    app.quit();
+  }
 })
